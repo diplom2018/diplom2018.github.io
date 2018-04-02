@@ -1,47 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Titles -->
+	<title>Document</title>
+	<meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- FavIcon -->
+	<link rel="icon" href="img/favicon.png"  type="image/x-icon" />
 
 
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-  <title>Главная</title>
 </head>
 <body>
-<section class="top_">
-  <div class="container">
-
-  </div>
-
-</section>
 
 <header>
+	<div class="t1">
+		<div class="container">
+			<a href="https://teamlogistics.github.io/">ФРАХТОВАНИЕ АВТО</a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+			</div>
+			<div class="col-sm-4">
+				<div class="formA">
+					<h2>Вход</h2>
+					<form class="fInput" action="index.html" method="post">
+						<fieldset class="form-group">
+					    <input type="" class="form-control" id="" placeholder="ЛОГИН">
+					  </fieldset>
+						<fieldset class="form-group">
+					    <input type="" class="form-control" id="" placeholder="ПАРОЛЬ">
+					  </fieldset>
+ 						<button type="submit" class="btn_v"  ><a href="start.html">ВХОД</a></button>
 
+
+
+					</form>
+				</div>
+			</div>
+			<div class="col-sm-4">
+			</div>
+		</div>
+
+	</div>
 </header>
-<section>
 
-</section>
-<footer>
 
-</footer>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 
-<script src="js/bootstrap.min.js"></script>
-<script>
 
-</script>
+
+	<!-- Библиотека jQuery - необходима для Bootstrap плагинов -->
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+
+	<!-- Bootstrap JS скрипты -->
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Собственные JS скрипты -->
+	<script src="js/main.js"></script>
+
 </body>
-
-
-
 </html>

@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+include "libs/functions.php";
+initSession();
+ ?>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">

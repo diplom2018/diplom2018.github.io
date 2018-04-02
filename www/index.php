@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+include "libs/functions.php";
+initSession();
+ ?>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -37,18 +41,11 @@
 			<div class="col-sm-4">
 				<div class="formA">
 					<h2>Вход</h2>
-					<form class="fInput" action="index.html" method="post">
-						<fieldset class="form-group">
-					    <input type="" class="form-control" id="" placeholder="ЛОГИН">
-					  </fieldset>
-						<fieldset class="form-group">
-					    <input type="" class="form-control" id="" placeholder="ПАРОЛЬ">
-					  </fieldset>
- 						<button type="submit" class="btn_v"  ><a href="start.html">ВХОД</a></button>
+					<?php
 
-
-
-					</form>
+					if (checkUser($_SESSION["email"],$_SESSION["password"])) require_once "start.php";
+					else require_once "blocks/auth.php";
+					?>
 				</div>
 			</div>
 			<div class="col-sm-4">
